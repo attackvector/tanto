@@ -27,7 +27,7 @@ Installation
 ##Notes 
 
 1) Steps two and three are unecessary after the first run.  
-2) You can use `apt-cacher-ng` to cache your packages (so that you won't need to download them from the repos upon each build). This is useful if you plan to do a lot of builds in a short time.
+2) You can use `apt-cacher-ng` and `netselect-apt` to respectively cache your packages (so that you won't need to download them from the repos upon each build), and speed test and autoselect the fastest local Debian mirror. This is useful if you plan to do a lot of builds in a short time, or automate a build process such as with continuing integration (CI).
 
 
 ![Ingress](http://enlightenedstl.com/images/enlightened-community-150.png)
