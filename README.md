@@ -1,6 +1,9 @@
 Tanto (短刀) Linux
 ==================
-Tanto is a Kali live-build recipe that includes a bunch of admin tools found in Debian as well as some tools and frameworks that are little-known outside of the professional security community. Tor is supplemented by i2p and freenet.
+T.A.N.T.O.
+The Amnesic Toolkit for Offense
+-------------------------------
+Tanto is a Kali live-build recipe that includes a bunch of admin tools found in Debian as well as some tools and frameworks that are little-known outside of the professional security community. Tor is supplemented by i2p and freenet. Tanto is a spiritual successor to Tin-Foil-Hat Linux.
 
 
 Installation
