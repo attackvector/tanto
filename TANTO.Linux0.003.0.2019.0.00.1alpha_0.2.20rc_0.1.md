@@ -13,7 +13,7 @@ Phase (0): Research
 
 I downloaded the latest *ISO* for Tails & Kali, and extracted them.  
 Then I *diff*ed the file *live/filesystem.packages*  
-_If_ you want to use an _Open-Source_ graphical *diff* tool, _try_ *meld*
+  _If_ you want to use an _Open-Source_ graphical *diff* tool, _try_ *meld*  
 _Both *Tails*_ and _*Kali*_ are based on *Debian*.  
 Furthermore, the live versions are both based on _Debian Live_.
 
