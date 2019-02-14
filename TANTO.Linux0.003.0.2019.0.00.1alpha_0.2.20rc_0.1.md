@@ -1,8 +1,8 @@
 *TANTO*.li
 ==========
 
-**T.A.N.T.O** Linux
--------------------
+**T.A.N.T.O.** Linux
+--------------------
 **The Amnesic Network Toolkit for Offense**  
 
 **TANTO** is based on tails.boum.org for a privacy-first, secure-by-default architecture and design pattern.  
@@ -12,10 +12,10 @@ Phase (0): Research
 ===================
 
 I downloaded the latest **ISO**s for Tails & Kali, and extracted them.  
-Then I **diff*ed the file **live/filesystem.packages**  
-  _If_ you want to use an _Open-Source_ graphical **diff** tool, _try_ **meld**_._  
-  _Both **Tails**_ and _**Kali**_ are based on **Debian**._  
-Furthermore, the live versions are both based on _**Debian Live**_._
+Then I **diff**ed the file **live/filesystem.packages**  
+  _If_ you want to use an _Open-Source_ graphical **diff** tool, _try_ **meld**_.  
+  _Both_ **Tails** _and_ **Kali** are based on **Debian**_.  
+Furthermore, the live versions are both based on _**Debian Live**_.
 
 Documentation:
 --------------
@@ -29,17 +29,17 @@ Documentation:
 
 Tails suggests building on Debian 9 (Stretch), or newer.  
 Likewise, Kali can be build on Debian.  
-We have now chosen our build system._  
+We have now chosen our build system.  
 
 Phase (1): Setup
 ================
-(0) Install Debian 9
-	`su -`
-	`apt install sudo`
-	Optional: `sudo apt install netselect-apt` (for getting your fastest local apt mirror)
-(1) Install Tails build requirements:
-	`sudo apt install psmisc git rake libvirt-daemon-system dnsmasq-base ebtables qemu-system-x86 qemu-utils vagrant vagrant-libvirt vmdebootstrap`
-	`sudo systemctl restart libvirtd`
+(0) Install Debian 9  
+	`su -`  
+	`apt install sudo`  
+	Optional: `sudo apt install netselect-apt` (for getting your fastest local apt mirror)  
+(1) Install Tails build requirements:  
+	`sudo apt install psmisc git rake libvirt-daemon-system dnsmasq-base ebtables qemu-system-x86 qemu-utils vagrant vagrant-libvirt vmdebootstrap`  
+	`sudo systemctl restart libvirtd`  
 	```
 	#!/bin/bash for group in kvm libvirt libvirt-qemu ; do
 		sudo adduser "$(whoami)" "$group"
