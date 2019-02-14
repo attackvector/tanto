@@ -35,19 +35,15 @@ FAQ
 ===
 
 Q For whom did you make this?  
-A For security professionals, in order to give them immediate and easy access to new tools that I've discovered, as well as the administrative power of tools already found in Debian repos
-
-Q Couldn't they just do it themselves?  
-A Of course, if they they wanted to spend the many hours of discovery to find the tools, many of which come from being a Linux administrator
-
-Q Isn't this essentially just Kali?  
-A Yes, and that's the point: this isn't so much its own distribution as an expansion to Kali, to which this distro pays homage. It includes additions to iceweasel, ruby tools, NMAP, and many interesting administrative tools, that are not well-known (see wiki or the list below).
+A For security professionals, in order to give them immediate and easy access to new tools that I've discovered, as well as the administrative power of tools already found in Debian repos. Necessary disclaimer: This is not for script kiddies, and no I will not help you hack your mom to delete the dick pics that you accidentally sent to her.
 
 
 Tools
 =====
 
 ##from Debian
+netselect-apt
+apt-transport-tor
 
 ###for Hashkill
 libssl-dev 
@@ -132,4 +128,4 @@ ronin-web
 hashkill (https://github.com/gat3way/hashkill/)  
 fakeap (http://www.blackalchemy.to/project/fakeap/)  
 quicksnap (https://www.soldierx.com/sxlabs/quicksnap-Customized-Automatic-Scanner-Nmap)  
-![img](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tanto_Kunimitsu.jpg)
+![img](https://uload.wikimedia.org/wikipedia/commons/4/4b/Tanto_Kunimitsu.jpg)
