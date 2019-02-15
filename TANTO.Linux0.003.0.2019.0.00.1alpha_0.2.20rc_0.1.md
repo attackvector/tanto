@@ -530,13 +530,8 @@ I wrote a get-wallpaper script in the rice repo for my other user, and thats the
 Wallaper files are in `config/chroot_local-includes/usr/share/tails`
 
 
-Intellectual property
-copyright	©
-copyleft	🄯
-sound-recording copyright	℗
-registered trademark	®
-service mark	℠
-trademark	™
+copyleft	🄯"all wrongs reserved"  
+
 Licenses
 ========
 [![Hacker Emblem](http://catb.org/hacker-emblem/hacker.png)](http://www.catb.org/hacker-emblem/)\
