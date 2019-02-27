@@ -1,0 +1,6 @@
+[submodule "kalitorify"]
+	path = kalitorify
+	url = https://github.com/BrainFuckSec/kalitorify
+[submodule "katoolin"]
+	path = katoolin
+	url = https://github.com/LionSec/katoolin

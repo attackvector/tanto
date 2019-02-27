@@ -1,8 +1,27 @@
 echo "Welcome to TANTO's builder & do-all script!"
+echo
+echo "Attempting to print working directory.."
+pwd
+echo
+echo "storing in environment variable."
+echo
+pwd
+echo $PWD
+pwd
+echo
+echo "Looks good from here, Ghost Rider. "
+echo
+echo "What can I say, Except, You're Welcome?"
+$PWD=`pwd`
 echo "🗡️    "
 if [ ! -e tails ]
 then
 	pwd
+    echo
+    echo "Current working dir: "$PWD
+    echo
+    pwd
+    echo
 	echo "tails dir not found, ergo∴"
 	echo "Cloning Tails\' git index..."
 	git clone https://git-tails.immerda.ch/tails
@@ -25,6 +44,65 @@ sleep 0.1
 done
 sleep 9
 echo
+pwd
+echo
+echo "Current working dir: "$PWD
+echo
+pwd
+echo
+cd ..
+pwd
+echo "..."$PWD
+pwd
+echo
+git submodule add https://git-tails.immerda.ch/tails tails
+if [ ! -e kali ]
+then
+    pwd
+    echo
+    echo "Current working dir: "$PWD
+    echo
+    pwd
+    echo
+    echo "kali dir not found, ergo:"
+    echo
+    echo "Creating kali dir.."
+    echo
+    mkdir kali
+    echo
+    cd kali
+    echo
+    pwd
+    echo
+    cd ..
+    echo
+    pwd
+    echo
+    cd ..
+    echo
+    pwd
+    echo
+    echo $PWD
+    echo
+    pwd
+    echo
+    echo "w00t!"
+    echo
+fi
+echo
+pwd
+echo ""
+echo "kalitorify script c/o brainfucksec.."
+git submodule add https://github.com/BrainFuckSec/kalitorify kali/kalitorify
+echo ""
+echo "katoolin script c/o lionsec.."
+git submodule add https://github.com/LionSec/katoolin kali/katoolin
+echo
+echo ""
+echo "Let's do it!"
+echo ""
+sleep 0.3
+git submodule update --init
 echo "Forking latest live-build branch to build T.A.N.T.O..."
 git checkout --track $REMOTE
 echo
@@ -56,6 +134,27 @@ done
 # That's supposed to set the righ permissions, right there^
 echo "♥"
 sleep 0.8
+echo
+pwd
+cd $PWD
+pwd
+echo
+cd `pwd`
+git submodule add cool-retro-term
+echo
+pwd
+cd $PWD
+pwd
+echo
+cd `pwd`
+echo
+echo "Current working dir: "$PWD
+### TODO SECTION ### COME BACK ### WARNING ### TEMPORARY
+cd ..
+echo
+git submodule add tails
+echo
+echo "Cross your fingers, ✌️✌️   Because here goes nothing! <emoji 🤞🤞✌️🤞iiii  here>"
 echo
 echo "Creating new branch \"tanto\" for T.A.N.T.O. Linux..."
 git branch tanto
