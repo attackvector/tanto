@@ -56,6 +56,10 @@ echo "..."$PWD
 pwd
 echo
 git submodule add https://git-tails.immerda.ch/tails tails
+echo ""
+echo "pentester's framework c|o trustedsec.."
+git submodule add https://github.com/trustedsec/ptf kali/ptf
+echo ""
 if [ ! -e kali ]
 then
     pwd
