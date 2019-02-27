@@ -50,92 +50,92 @@ Tools
 =====
 
 ##from Debian
-netselect-apt  
-apt-transport-tor  
+`netselect-apt`  
+`apt-transport-tor`  
 
 ###for Hashkill
-libssl-dev   
-libjson0-dev  
-amd-opencl-dev  
-nvidia-opencl-dev  
+`libssl-dev`   
+`libjson0-dev`  
+`amd-opencl-dev`  
+`nvidia-opencl-dev`  
 
 ###for everything else
-adduser  
-binutils  
-bsdutils  
-chkconfig  
-coreutils  
-curl  
-diffutils  
-dnsutils  
-dsniff  
-findutils  
-florence  
-fuse-utils  
-gnupg  
-gnupg-agent  
-gnupg-curl  
-gnutls-bin  
-gzip  
-haveged  
-ipheth-utils  
-iproute  
-iptstate  
-iputils-ping  
-iputils-tracepath  
-john  
-john-data  
-keepassx  
-laptop-mode-tools  
-libsqlite3-dev  
-libsqlite3-ruby1.9.1  
-liferea  
-liferea-data  
-lockfile-progs  
-lua5.1  
-lzma  
-moreutils  
-mtools  
-ncurses-base  
-ncurses-bin  
-net-tools  
-netcat-traditional  
-openssl  
-poppler-utils  
-pwgen  
-rfkill  
-ruby1.9.1  
-ruby1.9.1-dev  
-rubygems  
-seahorse  
-seahorse-nautilus  
-secure-delete  
-sqlite3  
-ssss  
-unar  
-unzip  
-vim-nox  
-vim-runtime  
-wget  
-whois  
+`adduser`  
+`binutils`  
+`bsdutils`  
+`chkconfig`  
+`coreutils`  
+`curl`  
+`diffutils`  
+`dnsutils`  
+`dsniff`  
+`findutils`  
+`florence`  
+`fuse-utils`  
+`gnupg`  
+`gnupg-agent`  
+`gnupg-curl`  
+`gnutls-bin`  
+`gzip`  
+`haveged`  
+`ipheth-utils`  
+`iproute`  
+`iptstate`  
+`iputils-ping`  
+`iputils-tracepath`  
+`john`  
+`john-data`  
+`keepassx`  
+`laptop-mode-tools`  
+`libsqlite3-dev`  
+`libsqlite3-ruby1.9.1`  
+`liferea`  
+`liferea-data`  
+`lockfile-progs`  
+`lua5.1`  
+`lzma`  
+`moreutils`  
+`mtools`  
+`ncurses-base`  
+`ncurses-bin`  
+`net-tools`  
+`netcat-traditional`  
+`openssl`  
+`poppler-utils`  
+`pwgen`  
+`rfkill`  
+`ruby1.9.1`  
+`ruby1.9.1-dev`  
+`rubygems`  
+`seahorse`  
+`seahorse-nautilus`  
+`secure-delete`  
+`sqlite3`  
+`ssss`  
+`unar`  
+`unzip`  
+`vim-nox`  
+`vim-runtime`  
+`wget`  
+`whois`  
 
 ##from gems
-ronin (https://github.com/ronin-ruby/)  
-ronin-asm  
-ronin-dorks  
-ronin-exploits  
-ronin-gen  
-ronin-grid  
-ronin-php  
-ronin-scanners  
-ronin-sql  
-ronin-support  
-ronin-web  
+`ronin` (https://github.com/ronin-ruby/)  
+`ronin-asm`  
+`ronin-dorks`  
+`ronin-exploits`  
+`ronin-gen`  
+`ronin-grid`  
+`ronin-php`  
+`ronin-scanners`  
+`ronin-sql`  
+`ronin-support`  
+`ronin-web`  
 
 ##from the web
-hashkill (https://github.com/gat3way/hashkill/)  
-fakeap (http://www.blackalchemy.to/project/fakeap/)  
-quicksnap (https://www.soldierx.com/sxlabs/quicksnap-Customized-Automatic-Scanner-Nmap)  
+`hashkill` (https://github.com/gat3way/hashkill/)  
+`fakeap` (http://www.blackalchemy.to/project/fakeap/)  
+`quicksnap` (https://www.soldierx.com/sxlabs/quicksnap-Customized-Automatic-Scanner-Nmap)  
 ![img](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tanto_Kunimitsu.jpg)
 
 **TANTO** is based on tails.boum.org for a privacy-first, secure-by-default architecture and design pattern.  
