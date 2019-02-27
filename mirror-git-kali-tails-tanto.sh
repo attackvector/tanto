@@ -140,7 +140,7 @@ cd $PWD
 pwd
 echo
 cd `pwd`
-git submodule add cool-retro-term
+git submodule add https://github.com/Swordfish90/cool-retro-term
 echo
 pwd
 cd $PWD
@@ -150,9 +150,9 @@ cd `pwd`
 echo
 echo "Current working dir: "$PWD
 ### TODO SECTION ### COME BACK ### WARNING ### TEMPORARY
-cd ..
-echo
-git submodule add tails
+pwd
+echo ""
+git submodule add https://github.com/derv82/wifite2 kali/wifite2
 echo
 echo "Cross your fingers, ✌️✌️   Because here goes nothing! <emoji 🤞🤞✌️🤞iiii  here>"
 echo
