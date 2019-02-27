@@ -55,10 +55,10 @@ pwd
 echo "..."$PWD
 pwd
 echo
-git submodule add https://git-tails.immerda.ch/tails tails
+git submodule add -f https://git-tails.immerda.ch/tails tails
 echo ""
 echo "pentester's framework c|o trustedsec.."
-git submodule add https://github.com/trustedsec/ptf kali/ptf
+git submodule add -f https://github.com/trustedsec/ptf kali/ptf
 echo ""
 if [ ! -e kali ]
 then
@@ -97,10 +97,10 @@ echo
 pwd
 echo ""
 echo "kalitorify script c/o brainfucksec.."
-git submodule add https://github.com/BrainFuckSec/kalitorify kali/kalitorify
+git submodule add -f https://github.com/BrainFuckSec/kalitorify kali/kalitorify
 echo ""
 echo "katoolin script c/o lionsec.."
-git submodule add https://github.com/LionSec/katoolin kali/katoolin
+git submodule add -f https://github.com/LionSec/katoolin kali/katoolin
 echo
 echo ""
 echo "Let's do it!"
