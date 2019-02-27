@@ -190,6 +190,16 @@ sleep 3
 echo "<Insert Confetti Party Emojis Here>🗡️   🗡️   🗡️   "
 sleep 1
 echo ""
+echo "...animal sacrifices go here..."
+echo ""
+echo "Renaming 'tails' dir to 'tanto'..."
+echo ""
+mv tails tanto
+cd tanto
+rake build && rake vm:halt
+echo "Well, that probably failed!"
+echo ""
+sleep 8
 echo "Moving on to Kali..." && sleep 1
 echo "CTRL+C now before it tries to mirror all of Kali\'s repos."
 sleep 1
