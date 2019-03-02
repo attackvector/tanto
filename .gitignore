@@ -1,0 +1,14 @@
+sh
+.motd
+.gz
+*.swp
+*.zip
+*.iso
+firefox
+wifite2/
+katoolin/
+kalitorify/
+tails/
+tpotce/
+find_mp3_duplicates
+sources.list*
